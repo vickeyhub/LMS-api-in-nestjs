@@ -12,13 +12,18 @@ export class AuthService {
         // logic for user registration
         /*
         1. check if email already exists
-        2. hash the password
-        3. save user to database
+        2. v hash the password
+        3. v save user to database
         4. generate JWT token
         5. send token in response
         */
 
-       return this.userService.createUser({...registerUserDto, password: hash} );
+       const user = await this.userService.createUser({
+            ...registerUserDto, 
+            password: hash
+        });
+        // console.log('user', user);
+         return { message: 'User registered successfully', user };
     }
 
     async getAllUsers() {
