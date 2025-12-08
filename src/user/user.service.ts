@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { ConflictException, Injectable } from '@nestjs/common';
 import { RegisterDto } from 'src/auth/dto/registerUser.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
@@ -10,12 +10,21 @@ export class UserService {
 
     async createUser(registerUserDto:RegisterDto){
         // const createdUser = new this.userModel(registerUserDto);
-        return await this.userModel.create({
-            fname: registerUserDto.fname,
-            lname: registerUserDto.lname,
-            email: registerUserDto.email,
-            password: registerUserDto.password,
-        });
+        try {
+
+            return await this.userModel.create({
+                fname: registerUserDto.fname,
+                lname: registerUserDto.lname,
+                email: registerUserDto.email,
+                password: registerUserDto.password,
+            });
+        } catch (error) {
+            const DUPLICATE_KEY_CODE = 11000;
+            if(error.code === DUPLICATE_KEY_CODE){
+                throw new ConflictException(error.keyValue.email + ' is already exists');
+            }
+            throw error;
+        }
         
         
     }

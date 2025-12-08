@@ -9,8 +9,8 @@ export class AuthController {
     constructor(private readonly authService: AuthService){}
     @Post('register')
     async register(@Body() registerUserDto:RegisterDto){
-        const result = await this.authService.registerUser(registerUserDto);
-        return result;
+        const token = await this.authService.registerUser(registerUserDto);
+        return token;
         
     }
     @Get('users')
