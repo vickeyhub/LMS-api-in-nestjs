@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "My App",
+    "tagline": "Build something amazing"
+  },
+
+  "common": {
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "save": "Save",
+    "edit": "Edit",
+    "update": "Update",
+    "delete": "Delete", 
+    "clear": "Clear",
+    "reset": "Reset",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "refresh": "Refresh",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "loading": "Loading...",
+    "please_wait": "Please wait..."
+  },
+
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "forgot_password": "Forgot Password?",
+    "reset_password": "Reset Password",
+    "verify_email": "Verify Email",
+    "remember_me": "Remember Me",
+    "dont_have_account": "Don't have an account?",
+    "already_have_account": "Already have an account?",
+    "sign_in_with": "Sign in with"
+  },
+
+  "user": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "edit_profile": "Edit Profile",
+    "change_password": "Change Password",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "language": "Language",
+    "theme": "Theme",
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode"
+  },
+
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "pincode": "Pincode",
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "min_length": "Minimum length is {min}",
+    "max_length": "Maximum length is {max}"
+  },
+
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "overview": "Overview",
+    "reports": "Reports",
+    "analytics": "Analytics",
+    "users": "Users",
+    "settings": "Settings"
+  },
+
+  "messages": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "data_saved": "Data saved successfully",
+    "data_updated": "Data updated successfully",
+    "data_deleted": "Data deleted successfully",
+    "something_went_wrong": "Something went wrong"
+  },
+
+  "errors": {
+    "network_error": "Network error. Please check your internet connection.",
+    "server_error": "Server error. Please try again later.",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "You do not have permission",
+    "not_found": "Data not found",
+    "timeout": "Request timeout"
+  },
+
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+
+  "navigation": {
+    "menu": "Menu",
+    "more": "More",
+    "help": "Help",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "terms": "Terms & Conditions",
+    "privacy_policy": "Privacy Policy"
+  },
+
+  "notifications": {
+    "new_notification": "You have a new notification",
+    "no_notifications": "No notifications available"
+  },
+
+  "empty_state": {
+    "no_data": "No data available",
+    "no_results": "No results found"
+  },
+
+  "pagination": {
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "entries": "entries"
+  }
+}

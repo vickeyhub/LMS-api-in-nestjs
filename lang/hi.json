@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "मेरा ऐप",
+    "tagline": "कुछ शानदार बनाएं"
+  },
+
+  "common": {
+    "ok": "ठीक है",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "submit": "जमा करें",
+    "save": "सहेजें",
+    "edit": "संपादित करें",
+    "update": "अपडेट करें",
+    "delete": "हटाएँ",
+    "clear": "साफ करें",
+    "reset": "रीसेट करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "आगे",
+    "previous": "पिछला",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "refresh": "रिफ्रेश",
+    "view": "देखें",
+    "download": "डाउनलोड",
+    "upload": "अपलोड",
+    "loading": "लोड हो रहा है...",
+    "please_wait": "कृपया प्रतीक्षा करें..."
+  },
+
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "register": "रजिस्टर",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "reset_password": "पासवर्ड रीसेट करें",
+    "verify_email": "ईमेल सत्यापित करें",
+    "remember_me": "मुझे याद रखें",
+    "dont_have_account": "खाता नहीं है?",
+    "already_have_account": "पहले से खाता है?",
+    "sign_in_with": "इसके साथ साइन इन करें"
+  },
+
+  "user": {
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "edit_profile": "प्रोफ़ाइल संपादित करें",
+    "change_password": "पासवर्ड बदलें",
+    "notifications": "सूचनाएँ",
+    "privacy": "गोपनीयता",
+    "language": "भाषा",
+    "theme": "थीम",
+    "dark_mode": "डार्क मोड",
+    "light_mode": "लाइट मोड"
+  },
+
+  "form": {
+    "name": "नाम",
+    "email": "ईमेल",
+    "mobile": "मोबाइल नंबर",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "address": "पता",
+    "city": "शहर",
+    "state": "राज्य",
+    "country": "देश",
+    "pincode": "पिनकोड",
+    "required": "यह फ़ील्ड अनिवार्य है",
+    "invalid_email": "कृपया मान्य ईमेल दर्ज करें",
+    "min_length": "न्यूनतम लंबाई {min} है",
+    "max_length": "अधिकतम लंबाई {max} है"
+  },
+
+  "dashboard": {
+    "dashboard": "डैशबोर्ड",
+    "home": "होम",
+    "overview": "सारांश",
+    "reports": "रिपोर्ट्स",
+    "analytics": "एनालिटिक्स",
+    "users": "उपयोगकर्ता",
+    "settings": "सेटिंग्स"
+  },
+
+  "messages": {
+    "success": "सफलता",
+    "error": "त्रुटि",
+    "warning": "चेतावनी",
+    "info": "जानकारी",
+    "data_saved": "डेटा सफलतापूर्वक सहेजा गया",
+    "data_updated": "डेटा सफलतापूर्वक अपडेट किया गया",
+    "data_deleted": "डेटा सफलतापूर्वक हटाया गया",
+    "something_went_wrong": "कुछ गलत हो गया"
+  },
+
+  "errors": {
+    "network_error": "नेटवर्क त्रुटि। कृपया इंटरनेट कनेक्शन जांचें।",
+    "server_error": "सर्वर त्रुटि। बाद में पुनः प्रयास करें।",
+    "unauthorized": "अनधिकृत एक्सेस",
+    "forbidden": "आपको अनुमति नहीं है",
+    "not_found": "डेटा नहीं मिला",
+    "timeout": "अनुरोध समय समाप्त"
+  },
+
+  "status": {
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "pending": "लंबित",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत",
+    "completed": "पूर्ण",
+    "cancelled": "रद्द"
+  },
+
+  "navigation": {
+    "menu": "मेनू",
+    "more": "और",
+    "help": "सहायता",
+    "about_us": "हमारे बारे में",
+    "contact_us": "संपर्क करें",
+    "terms": "नियम और शर्तें",
+    "privacy_policy": "गोपनीयता नीति"
+  },
+
+  "notifications": {
+    "new_notification": "आपके लिए नई सूचना है",
+    "no_notifications": "कोई सूचना उपलब्ध नहीं है"
+  },
+
+  "empty_state": {
+    "no_data": "कोई डेटा उपलब्ध नहीं है",
+    "no_results": "कोई परिणाम नहीं मिला"
+  },
+
+  "pagination": {
+    "showing": "दिखा रहे हैं",
+    "to": "से",
+    "of": "तक",
+    "entries": "एंट्रीज़"
+  }
+}
